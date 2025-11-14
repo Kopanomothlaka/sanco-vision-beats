@@ -50,17 +50,17 @@ const Index = () => {
       {/* Featured Content Preview */}
       <section className="py-20 container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="text-center p-8 bg-card rounded-lg border border-border hover:border-primary transition-colors">
-            <div className="text-4xl font-bold text-gradient-primary mb-2">100+</div>
-            <p className="text-muted-foreground">Tracks Released</p>
+          <div className="text-center p-8 bg-card rounded-xl border border-border hover:border-primary transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1 duration-300">
+            <div className="text-5xl font-black text-gradient-primary mb-2">14</div>
+            <p className="text-muted-foreground font-medium">Tracks Released</p>
           </div>
-          <div className="text-center p-8 bg-card rounded-lg border border-border hover:border-secondary transition-colors">
-            <div className="text-4xl font-bold text-gradient-accent mb-2">2019</div>
-            <p className="text-muted-foreground">Established</p>
+          <div className="text-center p-8 bg-card rounded-xl border border-border hover:border-secondary transition-all hover:shadow-lg hover:shadow-secondary/20 hover:-translate-y-1 duration-300">
+            <div className="text-5xl font-black text-gradient-accent mb-2">2019</div>
+            <p className="text-muted-foreground font-medium">Established</p>
           </div>
-          <div className="text-center p-8 bg-card rounded-lg border border-border hover:border-accent transition-colors">
-            <div className="text-4xl font-bold text-accent mb-2">2</div>
-            <p className="text-muted-foreground">Core Artists</p>
+          <div className="text-center p-8 bg-card rounded-xl border border-border hover:border-accent transition-all hover:shadow-lg hover:shadow-accent/20 hover:-translate-y-1 duration-300">
+            <div className="text-5xl font-black text-accent mb-2">2</div>
+            <p className="text-muted-foreground font-medium">Core Artists</p>
           </div>
         </div>
       </section>
