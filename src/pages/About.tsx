@@ -89,21 +89,21 @@ const About = () => {
         <section className="container mx-auto px-4 pb-20">
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="text-center p-6 bg-card rounded-lg border border-border">
-                <div className="text-4xl font-black text-gradient-primary mb-2">100+</div>
-                <div className="text-sm text-muted-foreground">Tracks Released</div>
+              <div className="text-center p-6 bg-card rounded-xl border border-border hover:border-primary transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1 duration-300">
+                <div className="text-4xl font-black text-gradient-primary mb-2">14</div>
+                <div className="text-sm text-muted-foreground uppercase tracking-wide">Tracks Released</div>
               </div>
-              <div className="text-center p-6 bg-card rounded-lg border border-border">
+              <div className="text-center p-6 bg-card rounded-xl border border-border hover:border-accent transition-all hover:shadow-lg hover:shadow-accent/20 hover:-translate-y-1 duration-300">
                 <div className="text-4xl font-black text-gradient-accent mb-2">6</div>
-                <div className="text-sm text-muted-foreground">Years Strong</div>
+                <div className="text-sm text-muted-foreground uppercase tracking-wide">Years Strong</div>
               </div>
-              <div className="text-center p-6 bg-card rounded-lg border border-border">
+              <div className="text-center p-6 bg-card rounded-xl border border-border hover:border-secondary transition-all hover:shadow-lg hover:shadow-secondary/20 hover:-translate-y-1 duration-300">
                 <div className="text-4xl font-black text-accent mb-2">2</div>
-                <div className="text-sm text-muted-foreground">Core Artists</div>
+                <div className="text-sm text-muted-foreground uppercase tracking-wide">Core Artists</div>
               </div>
-              <div className="text-center p-6 bg-card rounded-lg border border-border">
+              <div className="text-center p-6 bg-card rounded-xl border border-border hover:border-primary transition-all hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1 duration-300">
                 <div className="text-4xl font-black text-secondary mb-2">∞</div>
-                <div className="text-sm text-muted-foreground">Vibes Created</div>
+                <div className="text-sm text-muted-foreground uppercase tracking-wide">Vibes Created</div>
               </div>
             </div>
           </div>
